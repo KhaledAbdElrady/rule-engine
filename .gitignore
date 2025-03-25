@@ -1,20 +1,27 @@
+# Ignore Maven target directory
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### IntelliJ IDEA ###
+# Ignore logs
+*.log
+logs/
+
+# Ignore compiled files
+*.class
+
+# Ignore IDE-specific files
+.idea/
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
-*.iws
+.idea/encodings.xml
+.idea/misc.xml
 *.iml
+*.iws
 *.ipr
-encodings.xml
-misc.xml
-.gitignore
-### Eclipse ###
+
+# Ignore Eclipse-specific files
 .apt_generated
 .classpath
 .factorypath
@@ -23,25 +30,17 @@ misc.xml
 .springBeans
 .sts4-cache
 
-### NetBeans ###
+# Ignore NetBeans-specific files
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
+# Ignore VS Code settings
 .vscode/
 
-### Mac OS ###
+# Ignore OS files
 .DS_Store
-
-# Ignore logs
-*.log
-logs/
-
-# Ignore compiled files
-*.class
+Thumbs.db
