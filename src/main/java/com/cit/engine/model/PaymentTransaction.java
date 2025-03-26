@@ -24,11 +24,7 @@ public class PaymentTransaction {
     private Long id;
 
     private Double amount;
-    @JsonFormat(pattern = "yyyy-MM-dd") // Ensures correct date format
-
     private LocalDate settlementDate;
-    @JsonFormat(pattern = "yyyy-MM-dd") // Ensures correct date format
-
     private LocalDate valueDate;
     private Boolean inbound;
 }
