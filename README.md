@@ -46,5 +46,7 @@ The Rule Engine Service applies business rules to PaymentTransaction entities dy
 
        * Evaluates Routing Rules (only the highest-priority matching rule is applied).
 
+       * Note multiple conditions work with "AND" , "&&" operator to apply actions.
+
    3-The modified transaction is returned along with applied rule insights.
 
